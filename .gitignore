@@ -1,32 +1,42 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+*.vc.db
+*.opendb
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.ncb
+*.sdf
+*.cache
+*.pdb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build
+Debug/
+Release/
+x64/
+ipch/
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.log
+
+# CMake (varsa)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Diğer
+*.aps
+*.ilk
+*.pch
+*.idb
+*.class
+*.tlog
+*.lastbuildstate
+*.sbr
+*.tmp
+*.bak
+*.log
+*.sdf
+*.opensdf
