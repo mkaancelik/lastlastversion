@@ -4,6 +4,8 @@
         "chrono": "cpp",
         "system_error": "cpp",
         "xlocale": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "xlocbuf": "cpp"
     }
 }
